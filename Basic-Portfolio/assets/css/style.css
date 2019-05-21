@@ -21,8 +21,8 @@
   .header a.logo {
     font-size: 25px;
     font-weight: bold;
-    color: #4aaaa5;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #4aaaa5;
   }
   
   /* Change the background color on mouse-over */
@@ -44,13 +44,27 @@
   
   /* Border for section 1 */
   .section1{
-      border:20px solid #dddddd 
+      border:20px solid #dddddd;
+      padding: 12px 20px;
+  }
+
+  .about{
+      color: #4aaaa5
   }
 
   /* change img1 size */
   .img1{width: 200px; 
     height: 200px;
+    vertical-align: left;
+  }
 
+  .footer{
+    border-top: 8px solid #4aaaa5;
+    position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background-color: #666666;
   }
 
   /*Start of CSS for contact page*/
@@ -97,7 +111,8 @@ input[type=text], select, textarea {
   .container {
     border-radius: 5px;
     background-color: #ffffff;
-    padding: 20px;
+    min-height:100%;
+   position:relative;
   }
 
   #contactHeader{
